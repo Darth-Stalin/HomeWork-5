@@ -8,7 +8,7 @@ Console.WriteLine("Наш массив: ");
 PrintArray(randomArray);
 int sum = 0;
 
-for(int i = 0; i < randomArray.Length; i = i + 2)
+for(int i = 1; i < randomArray.Length; i = i + 2)
 {
     sum += randomArray[i];
 }
