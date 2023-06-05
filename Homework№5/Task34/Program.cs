@@ -31,4 +31,5 @@ void PrintArray(int[] randomArray)
     {
         Console.Write(randomArray[i] + " ");
     }
+    Console.WriteLine();
 }
