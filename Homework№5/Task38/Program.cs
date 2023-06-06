@@ -23,10 +23,10 @@ Console.WriteLine($"Разница между максимальным и мин
 
 void ArrayRandomNumbers(double[] randomArray)
 {
-    Random rand = new Random();
+
 for (int i = 0; i < size; i++)
     {
-        randomArray[i] = rand.NextDouble();
+        randomArray[i] = new Random().NextDouble();
     }
 }
 
